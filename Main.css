@@ -1,0 +1,45 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding:0;
+}
+.main{
+   color: white;
+}
+.hoverable{
+    display: none;
+    column-width: 20px;
+}
+.dropdown{
+    padding: 0.1%;
+    box-shadow: 0 0 0 0.1rem rgba(3, 5, 14, 0.5);
+    background-color: rgb(35, 70, 159);
+}
+#dd:hover .hoverable{
+    display:block;
+    position: absolute;
+    padding: none;
+}
+.btns li{
+    display: inline;
+    padding-right: 1%;
+    font-size: 20px;
+}
+.hoverable li{
+    display:block;
+}
+.btns li a{
+    text-decoration: none;
+}
+.hoverable li a{
+    color: black;
+}
+.hoverable li a:hover{
+    background-color: blue;
+    color: white;
+}
